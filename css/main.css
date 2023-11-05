@@ -32,6 +32,10 @@
 
 .container{
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
 
 
 }
@@ -44,21 +48,63 @@
 
 }
 .left-menu {
-    width: 20%;
-    height: 400px;
+    width: 80%;
+    height: 200px;
     background: cornflowerblue;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .right {
-    width: 80%;
-    height: 400px;
+    width: 20%;
+    height: 200px;
     background-color: coral;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+
 }
-.footer {
-    width: 100%;
+.footer { 
+    width: 0%;
     height: 100px;
     background: grey; 
-    clear: both;
+    
+}
+.blog-content {
+    width: 80%;
+    height: 200px;
+    background: whitesmoke;
+    float: left;
+    
+}
+.blog-img {
+    width: 20%;
+    height: 200px;
+    background: white;
+    float: left;
+ 
+}
+.blog-main {
+    width: 100%;
+    height:150px;
+    background: lemonchiffon;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.blog-head {
+    width: 100%;
+    height: 50px;
+    background: lightblue;
+}
+.blog-profile {
+    width:75px;
+    float: left;
+}
+.blog-name {
+    float: left; 
+}
+.blog-text {
+    width: 80%;
+    height: 150px;
+    background: whitesmoke;
 }
