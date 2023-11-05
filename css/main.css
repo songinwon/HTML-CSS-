@@ -136,8 +136,36 @@
     text-decoration: none;
     color: violet;
 }
+
 .main-background {
     width: 100%;
     height: 500px;
-    background-image: url();   
+    background-image: url(../shoes.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    margin-bottom: 50px;
+}
+.main-title {
+color: white;
+font-size: 40px;
+margin-top: 20px;
+}
+.sub {
+    color: wheat;
+    font-size: 15px;
+    margin-top: 300px;
+}
+
+.sub-page li {
+
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: whitesmoke;
+    padding: 7px;
+    border-radius: 10px;
+
 }
